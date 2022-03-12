@@ -1,0 +1,21 @@
+.count-container{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    width: 230px;
+}
+.puncture{
+    vertical-align: baseline;
+    line-height: 40px;
+    margin-right: 20px;
+    background-color: black;
+}
+    
+
+.count-cell{
+    font-size: 40px;
+    margin-right: 20px;
+}
+button{
+    width: 80px;
+}

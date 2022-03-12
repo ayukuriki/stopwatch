@@ -1,0 +1,27 @@
+.count-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 230px;
+}
+
+.puncture {
+  vertical-align: baseline;
+  line-height: 40px;
+  margin-right: 20px;
+  background-color: black;
+}
+
+.count-cell {
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+button {
+  width: 80px;
+}
+/*# sourceMappingURL=styles.css.map */
