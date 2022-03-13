@@ -41,16 +41,16 @@ $(function(){
 
   
   $("#start").click(function() {
-    console.log("スタートボタン")
+    if($('#start').prop('disabled',false)){
     time();
+    $('#start').prop('disabled',true)
+    }
+
   });
-  $("#countA").text(milsec); 
-  $("#countB").text(sec); 
-  $("#countC").text(minute); 
-  $("#countD").text(hour); 
 
     $("#stop").click(function() {
       stopTimer();
+      $('#start').prop('disabled',false)
    });
 
   $("#reset").click(function() {
@@ -63,6 +63,7 @@ $(function(){
     $("#countB").text(sec); 
     $("#countC").text(minute); 
     $("#countD").text(hour);
+    $('#start').prop('disabled',false)
     });
 
   });
